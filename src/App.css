@@ -1,8 +1,27 @@
 .App {
+  height: 100vh;
   text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.map{
-  height: 500px;
-  width: 500px;
+.maps{
+  justify-content: flex-end;
+  align-items: flex-end;
+  display: flex;
+  height: 60vh;
+  width: 80vw;
+}
+.map1{
+  height: inherit;
+  width: inherit;
+  position: absolute;
+  z-index: 0;
+}
+.map2{
+
+  border: solid 0.5px black;
+  height: 20vh;
+  width: 30vw;
 }
